@@ -69,13 +69,13 @@ max-height: 100%;
 }
 
 .cloud3 {
- position: fixed;
+ position: absolute;
  left: 900px;
  bottom: 160px;
 }
 
 .cloud4{
- position: fixed;
+ position: absolute;
  right: 500px;
 
 }
