@@ -64,18 +64,18 @@ max-height: 100%;
 }
 
 .cloud2 {
- position: relative;
+ position: fixed;
  bottom: 200px
 }
 
 .cloud3 {
- position: relative;
+ position: fixed;
  left: 900px;
  bottom: 160px;
 }
 
 .cloud4{
- position: relative;
+ position: fixed;
  right: 500px;
 
 }
@@ -83,28 +83,31 @@ max-height: 100%;
 
 
 .mid {
+    padding-right: 200px;
+    padding-left: 200px;
     background-color: #e0f0e3;
-    padding: 50px 0 20px;
-    max-height: 1325px;
-    height: 243%;
+    max-height: 1425px;
+    height: 300%;
+    width: 200%;
     display: inline-block
 }
 
 
-
+/*
 .blossom {
-position: relative;
+overflow: hidden;
+position: fixed;
 bottom: 446px;
 }
 
 .blossom2 {
-position: relative;
 bottom: 1225px;
 left: 80px;
 -webkit-transform: scaleX(-1);
 transform: scaleX(-1);
+overflow: hidden;
 }
-
+*/
 .goose {
 max-height: 120px;
 max-width: 200px;
